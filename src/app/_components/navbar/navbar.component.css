@@ -1,0 +1,21 @@
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled .navbar-brand {
+  transform: translateX(-50%);
+}
+
+.navbar.scrolled .navbar-nav,
+.navbar.scrolled .form-inline {
+  display: flex !important;
+}
+
+.navbar-nav,
+.form-inline {
+  display: none;
+}
